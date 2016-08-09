@@ -7,7 +7,7 @@
 //
 
 #import "SGTFileUploadManager.h"
-#import "AFNetworkActivityIndicatorManager.h"
+#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
 #import "NSFileManager+pathMethod.h"
 #import "SGTAFUpload.h"
 #ifdef DEBUG
