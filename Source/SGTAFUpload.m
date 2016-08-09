@@ -7,7 +7,7 @@
 //
 
 #import "SGTAFUpload.h"
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 #import "AFNetworkActivityIndicatorManager.h"
 
 @interface SGTAFUpload()
