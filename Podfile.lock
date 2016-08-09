@@ -21,7 +21,7 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - SGTNetworking (1.0.0):
+  - SGTNetworking (1.0.1):
     - AFNetworking (~> 3.1.0)
     - ReactiveCocoa (~> 2.5)
 
@@ -31,7 +31,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  SGTNetworking: 38e7099d435cc649dbd2085e2e37541b8caf11d6
+  SGTNetworking: 8a4427fb55e5a86af283d133d11ad81fc0ae7c11
 
 PODFILE CHECKSUM: 83cdb68a34d5f96ab46d6fb0a0647403b16e729c
 

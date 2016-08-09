@@ -20,8 +20,6 @@
 		E199A38E1D59AFA70097B960 /* SGTUploadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E199A3831D59AFA70097B960 /* SGTUploadResponse.m */; };
 		E199A38F1D59AFA70097B960 /* UploadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = E199A3841D59AFA70097B960 /* UploadTask.h */; };
 		E199A3901D59AFA70097B960 /* UploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E199A3851D59AFA70097B960 /* UploadTask.m */; };
-		E199A3941D59AFF30097B960 /* NSFileManager+pathMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = E199A3921D59AFF30097B960 /* NSFileManager+pathMethod.h */; };
-		E199A3951D59AFF30097B960 /* NSFileManager+pathMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E199A3931D59AFF30097B960 /* NSFileManager+pathMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +40,6 @@
 		E199A3831D59AFA70097B960 /* SGTUploadResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGTUploadResponse.m; sourceTree = "<group>"; };
 		E199A3841D59AFA70097B960 /* UploadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadTask.h; sourceTree = "<group>"; };
 		E199A3851D59AFA70097B960 /* UploadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadTask.m; sourceTree = "<group>"; };
-		E199A3921D59AFF30097B960 /* NSFileManager+pathMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+pathMethod.h"; sourceTree = "<group>"; };
-		E199A3931D59AFF30097B960 /* NSFileManager+pathMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+pathMethod.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +102,6 @@
 		E199A37A1D59AFA70097B960 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				E199A3911D59AFF30097B960 /* Category */,
 				E199A37B1D59AFA70097B960 /* SGTAFUpload.h */,
 				E199A37C1D59AFA70097B960 /* SGTAFUpload.m */,
 				E199A37D1D59AFA70097B960 /* SGTFileUploadConfig.h */,
@@ -122,15 +117,6 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		E199A3911D59AFF30097B960 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				E199A3921D59AFF30097B960 /* NSFileManager+pathMethod.h */,
-				E199A3931D59AFF30097B960 /* NSFileManager+pathMethod.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -143,7 +129,6 @@
 				E199A38A1D59AFA70097B960 /* SGTFileUploadManager.h in Headers */,
 				E199A38D1D59AFA70097B960 /* SGTUploadResponse.h in Headers */,
 				E199A38C1D59AFA70097B960 /* SGTFileUploadProtocol.h in Headers */,
-				E199A3941D59AFF30097B960 /* NSFileManager+pathMethod.h in Headers */,
 				E199A38F1D59AFA70097B960 /* UploadTask.h in Headers */,
 				E199A3861D59AFA70097B960 /* SGTAFUpload.h in Headers */,
 			);
@@ -253,7 +238,6 @@
 			files = (
 				E199A3901D59AFA70097B960 /* UploadTask.m in Sources */,
 				E199A38E1D59AFA70097B960 /* SGTUploadResponse.m in Sources */,
-				E199A3951D59AFF30097B960 /* NSFileManager+pathMethod.m in Sources */,
 				E199A3871D59AFA70097B960 /* SGTAFUpload.m in Sources */,
 				E199A3891D59AFA70097B960 /* SGTFileUploadConfig.m in Sources */,
 				E199A38B1D59AFA70097B960 /* SGTFileUploadManager.m in Sources */,
