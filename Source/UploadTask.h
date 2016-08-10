@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SGTNetConfig.h"
+#import <SGTNetworking/SGTNetConfig.h>
 @class UploadTask;
 @protocol UploadTaskDelegate <NSObject>
 

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		211D4901219B2766F6451E23 /* libPods-SGTFileUpload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF8D6B8507E2042B94247D5 /* libPods-SGTFileUpload.a */; };
+		D63EEB1529977361999BCEC3 /* Pods_SGTFileUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA88427738F6F0D5518C8E1E /* Pods_SGTFileUpload.framework */; };
 		E199A3731D59AECB0097B960 /* SGTFileUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = E199A3721D59AECB0097B960 /* SGTFileUpload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E199A3861D59AFA70097B960 /* SGTAFUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = E199A37B1D59AFA70097B960 /* SGTAFUpload.h */; };
 		E199A3871D59AFA70097B960 /* SGTAFUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = E199A37C1D59AFA70097B960 /* SGTAFUpload.m */; };
@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		03B8747ED97951704E7BD95D /* Pods-SGTFileUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGTFileUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGTFileUpload/Pods-SGTFileUpload.release.xcconfig"; sourceTree = "<group>"; };
 		2D8C9459A1E31E2E4515D520 /* Pods-SGTFileUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGTFileUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGTFileUpload/Pods-SGTFileUpload.debug.xcconfig"; sourceTree = "<group>"; };
-		DAF8D6B8507E2042B94247D5 /* libPods-SGTFileUpload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SGTFileUpload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA88427738F6F0D5518C8E1E /* Pods_SGTFileUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGTFileUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E199A36F1D59AECB0097B960 /* SGTFileUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGTFileUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E199A3721D59AECB0097B960 /* SGTFileUpload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGTFileUpload.h; sourceTree = "<group>"; };
 		E199A3741D59AECB0097B960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211D4901219B2766F6451E23 /* libPods-SGTFileUpload.a in Frameworks */,
+				D63EEB1529977361999BCEC3 /* Pods_SGTFileUpload.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 		E07AFFA64EF325894E3BB347 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAF8D6B8507E2042B94247D5 /* libPods-SGTFileUpload.a */,
+				DA88427738F6F0D5518C8E1E /* Pods_SGTFileUpload.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

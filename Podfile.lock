@@ -14,25 +14,22 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - ReactiveCocoa (2.5):
-    - ReactiveCocoa/UI (= 2.5)
-  - ReactiveCocoa/Core (2.5):
-    - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.5)
-  - ReactiveCocoa/UI (2.5):
-    - ReactiveCocoa/Core
-  - SGTNetworking (1.0.1):
-    - AFNetworking (~> 3.1.0)
-    - ReactiveCocoa (~> 2.5)
+  - ReactiveCocoa (4.2.1):
+    - Result (~> 2.0)
+  - Result (2.1.3)
+  - SGTNetworking (1.0.3):
+    - AFNetworking
+    - ReactiveCocoa
 
 DEPENDENCIES:
   - SGTNetworking
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  SGTNetworking: 8a4427fb55e5a86af283d133d11ad81fc0ae7c11
+  ReactiveCocoa: 5a42745f11ea236f405bb9ce5e97c5e3b23562dd
+  Result: 18e1a7597fbcca5923c565b40a25a98afafdee02
+  SGTNetworking: 5e847fdd04a1eee53bab356899f55da3cba23f27
 
-PODFILE CHECKSUM: 83cdb68a34d5f96ab46d6fb0a0647403b16e729c
+PODFILE CHECKSUM: d1dfee01c7ed472a5007b3aee431db340685de41
 
 COCOAPODS: 1.0.1
