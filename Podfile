@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs'
-source 'https://github.com/blockdate/Specs'
+source 'https://bitbucket.org/sgtfundation/specs'
 
 platform :ios, '8.0'
 inhibit_all_warnings!
