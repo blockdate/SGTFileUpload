@@ -14,22 +14,42 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - ReactiveCocoa (4.2.2):
-    - Result (~> 2.0)
-  - Result (2.1.3)
-  - SGTNetworking (1.0.5):
+  - AliyunOSSiOS (2.5.3)
+  - DACircularProgress (2.3.1)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - pop (1.0.9)
+  - ReactiveObjC (1.0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SGTImageFramework (0.0.7-debug):
+    - DACircularProgress
+    - Masonry
+    - MBProgressHUD
+    - pop
+    - SDWebImage
+  - SGTNetworking (2.0.1):
     - AFNetworking
-    - ReactiveCocoa
+    - ReactiveObjC
 
 DEPENDENCIES:
+  - AliyunOSSiOS
+  - SGTImageFramework (~> 0.0.7-debug)
   - SGTNetworking
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  ReactiveCocoa: 72263e7ac0770c274617ccd345e01049d0ca38ae
-  Result: 18e1a7597fbcca5923c565b40a25a98afafdee02
-  SGTNetworking: 853146f05e8a21a70acf4080313ded2235a945af
+  AliyunOSSiOS: 80e7617a5f4b5af50888a8946f6a744726032972
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveObjC: 0e618037d7b883b4cebcc8da203e8ed9b69ca2d3
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SGTImageFramework: d6afb8e1b8f56b9793fd9f3c61ebde5d88d251df
+  SGTNetworking: b893c74eb56c979ffcfd69a042100f573e6bc2b9
 
-PODFILE CHECKSUM: 7340b3cc04d89f4bb7e9770455cccceab17e2f64
+PODFILE CHECKSUM: 7bdde199e25f37dd011fb0141c4cd5a58e43f926
 
 COCOAPODS: 1.0.1

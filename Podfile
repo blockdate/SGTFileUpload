@@ -7,7 +7,7 @@ use_frameworks!
 
 workspace 'SGTFileUpload'
 project 'SGTFileUpload.xcodeproj'
-# project 'Demo/Demo.xcodeproj'
+ project 'Demo/Demo.xcodeproj'
 
 target 'SGTFileUpload' do
     project 'SGTFileUpload.xcodeproj'
@@ -15,10 +15,10 @@ target 'SGTFileUpload' do
     pod 'SGTNetworking'
 end
 
-#  target 'Demo' do
-#      project 'Demo/Demo.xcodeproj'
-#      platform :ios, '8.0'
-# #     pod 'ReactiveCocoa', '~> 2.5'
-#      pod 'Masonry', '~> 0.6.3'
-#      pod 'SDWebImage', '~> 3.7.3'
-#  end
+  target 'Demo' do
+      project 'Demo/Demo.xcodeproj'
+      platform :ios, '8.0'
+      pod 'SGTNetworking'
+      pod 'SGTImageFramework', '~> 0.0.7-debug'
+      pod 'AliyunOSSiOS'
+  end
